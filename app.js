@@ -84,10 +84,10 @@ function createListItem(video) {
                     <img src="${thumbnails.medium.url}" />
                 </div>
                 <div class="col col-right">
-                    <p>
-                        <span class="heading">${title}</span><br />
-                        <span class="author">by ${channelTitle}</span>
-                    </p>
+                    <div class="video-content">
+                        <p class="heading">${title}</p>
+                        <p class="author">by ${channelTitle}</p>
+                    </div>
                 </div>
             </li>
         </a>
